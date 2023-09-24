@@ -3,9 +3,11 @@
 @use 'hero';
 @use 'shows';
 @use 'plans';
+@use 'available-devices';
 
 body{
 	background-color:variaveis.$corDeFundo;
+	
 }
 
 @mixin text($fontSize: 16px){
@@ -83,7 +85,7 @@ button{
 	&--image-full-width{
 		display:block;
 		position:relative;
-		
+
 		img{
 			width:100%;
 		}
