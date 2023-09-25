@@ -3,6 +3,7 @@
 
     h2{
 		text-align:center;
+		padding-bottom: 40px;
 	}
 
     &__list{
@@ -15,8 +16,8 @@
 			max-width:380px;
 			width:100%;
 
-            &:nth-child(2){
-				background-image: url(../image/fundo_combo_plus.png);
+            &:nth-child(2) {
+				background-image: url(../images/fundo_combo_plus.png);
 				background-repeat: no-repeat;
 				background-size: contain;
 			}
